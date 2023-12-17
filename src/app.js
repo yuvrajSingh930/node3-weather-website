@@ -19,13 +19,13 @@ hbs.registerPartials(partialsPath)
 app.get('',(req,res)=>{// this is also another search by expresss all must be in order
     res.render('index',{
         'title':'Whether APP',
-        'name': 'Yuvraj'
+        'name': 'Yuvraj Singh'
     })
 })
 app.get('/about',(req,res)=>{
     res.render('about',{
         'title':'About Me',
-        'name': 'Yuvraj Singh Kanoujia'
+        'name': 'Yuvraj Singh'
     })
 })
 app.get('/help',(req,res)=>{
